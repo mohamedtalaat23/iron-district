@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Iron District, a fictional strength gym. Explore classes, schedules and memberships." name="description"/>
+  <title>
+   Join the district | Iron District
+  </title>
+  <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+  <link href="assets/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <a class="brand" href="index.html">
+    <span class="brand-mark">
+     ID
+    </span>
+    IRON DISTRICT
+    <span class="brand-sub">
+     STRENGTH / COMMUNITY
+    </span>
+   </a>
+   <nav aria-label="Main navigation">
+    <a href="index.html">
+     Home
+    </a>
+    <a href="classes.html">
+     Classes
+    </a>
+    <a href="schedule.html">
+     Schedule &amp; memberships
+    </a>
+    <a aria-current="page" href="join.html">
+     Join us
+    </a>
+   </nav>
+  </header>
+  <main id="main">
+   <section class="page-intro">
+    <p class="eyebrow">
+     IRON DISTRICT / 04 / YOUR FIRST STEP
+    </p>
+    <h1>
+     YOUR DAY ONE
+     <br/>
+     <span>
+      STARTS HERE.
+     </span>
+    </h1>
+    <p class="lead">
+     You bring the effort. We’ll bring the space to grow.
+    </p>
+   </section>
+   <section class="section pt-0 join-layout">
+    <aside>
+     <h2>
+      LET’S BUILD
+      <br/>
+      SOMETHING.
+     </h2>
+     <p>
+      Choose your starting point and explore what a membership could look like.
+     </p>
+     <div class="notice">
+      <strong>
+       This is a demonstration.
+      </strong>
+      <p>
+       No account is created, no information is stored, and no booking is made. Please use fictional details.
+      </p>
+     </div>
+     <p>
+      Looking for a session first?
+      <br/>
+      <a href="schedule.html">
+       View the schedule →
+      </a>
+     </p>
+    </aside>
+    <form action="join.html#demo-result" autocomplete="off" method="get">
+     <!-- Static demo: unnamed controls are validated but not serialized. Only the membership radio group has a name; its empty values keep entered details out of the URL. No JavaScript or backend is used. -->
+     <p>
+      All fields are required except training interests and your message. Ages 18–100.
+     </p>
+     <div class="row g-4">
+      <div class="col-md-6">
+       <label class="form-label" for="full-name">
+        Full name
+       </label>
+       <input autocomplete="name" class="form-control" id="full-name" required="" type="text"/>
+      </div>
+      <div class="col-md-6">
+       <label class="form-label" for="email">
+        Email address
+       </label>
+       <input autocomplete="email" class="form-control" id="email" required="" type="email"/>
+      </div>
+      <div class="col-md-6">
+       <label class="form-label" for="password">
+        Demo password
+       </label>
+       <input aria-describedby="password-help" autocomplete="off" class="form-control" id="password" minlength="8" required="" type="password"/>
+       <small id="password-help">
+        Use a made-up password of at least 8 characters.
+       </small>
+      </div>
+      <div class="col-md-6">
+       <label class="form-label" for="age">
+        Age
+       </label>
+       <input class="form-control" id="age" max="100" min="18" required="" type="number"/>
+      </div>
+      <div class="col-md-6">
+       <label class="form-label" for="start">
+        Preferred start date
+       </label>
+       <input class="form-control" id="start" required="" type="date"/>
+      </div>
+      <div class="col-md-6">
+       <label class="form-label" for="class">
+        First class
+       </label>
+       <select class="form-select" id="class" required="">
+        <option value="">
+         Choose a class
+        </option>
+        <option>
+         Strength foundations
+        </option>
+        <option>
+         Powerlifting
+        </option>
+        <option>
+         Conditioning
+        </option>
+        <option>
+         Mobility &amp; recovery
+        </option>
+        <option>
+         Functional strength
+        </option>
+        <option>
+         Barbell technique
+        </option>
+       </select>
+      </div>
+     </div>
+     <fieldset>
+      <legend>
+       Choose a membership
+      </legend>
+      <label class="choice">
+       <input class="form-check-input" name="membership" required="" type="radio" value=""/>
+       Start · 650 EGP
+      </label>
+      <label class="choice">
+       <input class="form-check-input" name="membership" required="" type="radio" value=""/>
+       Build · 950 EGP
+      </label>
+      <label class="choice">
+       <input class="form-check-input" name="membership" required="" type="radio" value=""/>
+       Commit · 1,250 EGP
+      </label>
+     </fieldset>
+     <fieldset>
+      <legend>
+       Training interests
+       <small>
+        (optional)
+       </small>
+      </legend>
+      <label class="choice">
+       <input class="form-check-input" type="checkbox"/>
+       Strength
+      </label>
+      <label class="choice">
+       <input class="form-check-input" type="checkbox"/>
+       Conditioning
+      </label>
+      <label class="choice">
+       <input class="form-check-input" type="checkbox"/>
+       Mobility
+      </label>
+     </fieldset>
+     <label class="form-label" for="message">
+      Anything else? (optional)
+     </label>
+     <textarea class="form-control" id="message" placeholder="Tell us about your training goals…" rows="4"></textarea>
+     <label class="choice consent">
+      <input class="form-check-input" required="" type="checkbox"/>
+      I understand this is a demo, not a real membership.
+     </label>
+     <button class="btn btn-primary" type="submit">
+      Try the registration ↗
+     </button>
+     <p id="demo-result" role="status">
+      Demo complete. No account was created and no personal field values were sent.
+     </p>
+    </form>
+   </section>
+  </main>
+  <footer>
+   <a class="brand" href="index.html">
+    IRON DISTRICT
+    <span class="brand-sub">
+     SHOW UP. BUILD YOURSELF.
+    </span>
+   </a>
+   <p>
+    Fictional gym · Cairo, Egypt
+    <br/>
+    Student project · No real bookings or payments
+   </p>
+   <a href="join.html">
+    Find your starting point ↗
+   </a>
+  </footer>
+ </body>
+</html>

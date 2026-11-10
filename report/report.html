@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Iron District — project report
+  </title>
+  <link href="../assets/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+  <link href="../assets/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <main class="section">
+   <h1>
+    PROJECT REPORT
+   </h1>
+   <p>
+    <strong>
+     Name:
+    </strong>
+    [Enter your name]
+    <br/>
+    <strong>
+     Student ID:
+    </strong>
+    [Enter your ID]
+   </p>
+   <h2>
+    Topic &amp; purpose
+   </h2>
+   <p>
+    Iron District is a fictional Cairo strength gym. This static website helps visitors discover six classes, compare membership prices, view a weekly timetable and try a registration form. It uses HTML5, CSS3 and Bootstrap without a backend or custom JavaScript.
+   </p>
+   <h2>
+    Site map
+   </h2>
+   <p>
+    Shared navigation on every page → Home (index.html), Classes (classes.html), Schedule &amp; memberships (schedule.html), Join (join.html).
+   </p>
+   <p>
+    Every page links to all four pages through shared navigation. Home links directly to Classes and Join; class cards link to Schedule; memberships link to Join. The logo returns to Home.
+   </p>
+   <h2>
+    Requirements checklist
+   </h2>
+   <dl>
+    <dt>
+     Document structure
+    </dt>
+    <dd>
+     All four pages: doctype, lang, charset, viewport, description, unique title; header, nav, main, section and footer.
+    </dd>
+    <dt>
+     Article and aside
+    </dt>
+    <dd>
+     Classes uses article cards and a beginner aside; Join also uses an aside.
+    </dd>
+    <dt>
+     Text and links
+    </dt>
+    <dd>
+     Heading hierarchy and paragraphs throughout; strong and em on Home; shared page links; external ACE link on Classes.
+    </dd>
+    <dt>
+     Images, lists and video
+    </dt>
+    <dd>
+     Home gym image with alt text, benefits unordered list and local MP4 with controls; Classes ordered beginner list.
+    </dd>
+    <dt>
+     Table and merged cells
+    </dt>
+    <dd>
+     Schedule uses caption, scoped headers, rowspan for 60-minute sessions and colspan for shared mobility.
+    </dd>
+    <dt>
+     Form inputs
+    </dt>
+    <dd>
+     Join contains text, email, password, number, date, radio, checkbox, select, textarea and submit; associated labels and fieldsets.
+    </dd>
+    <dt>
+     Native validation
+    </dt>
+    <dd>
+     Required fields, email syntax, 8-character demo password and age 18–100. Radios share a name and empty values; other controls omit names so personal values are never submitted.
+    </dd>
+    <dt>
+     Custom CSS
+    </dt>
+    <dd>
+     assets/style.css: element, class, attribute and descendant selectors; hover, focus-visible and target pseudo-classes; colours, backgrounds, system fonts and box model.
+    </dd>
+    <dt>
+     Layout
+    </dt>
+    <dd>
+     Header/navigation use Flexbox; memberships and split sections use Grid; hero overlays and skip link use positioning; block, flex, grid and none display values.
+    </dd>
+    <dt>
+     Responsive layout
+    </dt>
+    <dd>
+     767px media query stacks sections and wraps navigation; Bootstrap responsive columns; table scroll region prevents page overflow.
+    </dd>
+    <dt>
+     Bootstrap bonus
+    </dt>
+    <dd>
+     Local Bootstrap 5.3.3 CSS: row/col responsive grid, card, btn and form-control/form-select/form-check-input classes. No JavaScript needed.
+    </dd>
+   </dl>
+   <h2>
+    Verification
+   </h2>
+   <p>
+    All four pages and the report were checked at widths of 320, 375, 390, 768, 1024 and 1440 pixels without page-wide horizontal overflow. Local links and assets resolve, IDs are unique, and HTML5 parsing reported no errors. Browser checks cover form validation, radio grouping, demo submission, keyboard navigation, timetable scrolling and video playback. Screenshots show the final website at desktop and phone widths.
+   </p>
+   <h2>
+    Sources &amp; credits
+   </h2>
+   <ul>
+    <li>
+     <a href="https://images.unsplash.com/photo-1534438327276-14e5300c3a48">
+      Gym photograph: Unsplash asset
+     </a>
+     — stored locally in assets/images/gym.jpg.
+    </li>
+    <li>
+     <a href="https://www.pexels.com/video/3209241/">
+      Fitness video: Pexels, video 3209241
+     </a>
+     — stored locally in assets/video/training.mp4.
+    </li>
+    <li>
+     <a href="https://getbootstrap.com/">
+      Bootstrap 5.3.3
+     </a>
+     — MIT-licensed stylesheet; copyright notice retained in the local file.
+    </li>
+   </ul>
+   <p>
+    Gym name, programme descriptions, timetable and prices are fictional. Media illustrates the concept rather than a real business.
+   </p>
+   <h2>
+    Page screenshots
+   </h2>
+   <section>
+    <h2>
+     Home
+    </h2>
+    <h3>
+     Desktop · 1440 × 1000 viewport
+    </h3>
+    <img alt="Home desktop screenshot" src="screenshots/index-desktop.png" style="width:100%;border:1px solid #aaa"/>
+    <h3>
+     Phone · 390 × 844 viewport
+    </h3>
+    <img alt="Home phone screenshot" src="screenshots/index-phone.png" style="width:390px;max-width:100%;border:1px solid #aaa"/>
+   </section>
+   <section>
+    <h2>
+     Classes
+    </h2>
+    <h3>
+     Desktop · 1440 × 1000 viewport
+    </h3>
+    <img alt="Classes desktop screenshot" src="screenshots/classes-desktop.png" style="width:100%;border:1px solid #aaa"/>
+    <h3>
+     Phone · 390 × 844 viewport
+    </h3>
+    <img alt="Classes phone screenshot" src="screenshots/classes-phone.png" style="width:390px;max-width:100%;border:1px solid #aaa"/>
+   </section>
+   <section>
+    <h2>
+     Schedule &amp; memberships
+    </h2>
+    <h3>
+     Desktop · 1440 × 1000 viewport
+    </h3>
+    <img alt="Schedule &amp; memberships desktop screenshot" src="screenshots/schedule-desktop.png" style="width:100%;border:1px solid #aaa"/>
+    <h3>
+     Phone · 390 × 844 viewport
+    </h3>
+    <img alt="Schedule &amp; memberships phone screenshot" src="screenshots/schedule-phone.png" style="width:390px;max-width:100%;border:1px solid #aaa"/>
+   </section>
+   <section>
+    <h2>
+     Join
+    </h2>
+    <h3>
+     Desktop · 1440 × 1000 viewport
+    </h3>
+    <img alt="Join desktop screenshot" src="screenshots/join-desktop.png" style="width:100%;border:1px solid #aaa"/>
+    <h3>
+     Phone · 390 × 844 viewport
+    </h3>
+    <img alt="Join phone screenshot" src="screenshots/join-phone.png" style="width:390px;max-width:100%;border:1px solid #aaa"/>
+   </section>
+  </main>
+ </body>
+</html>
